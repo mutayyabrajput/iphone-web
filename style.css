@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+background-color: black;
+ padding: 10px; 
+
+
+}
+.ul li{
+color: rgb(250, 241, 241);
+list-style: none;
+}
+.main ul{
+    display: flex;
+     gap: 25px; 
+     justify-content: center;
+       
+}
+.iphone{
+    justify-content: center;
+    display: flex;
+    font-family: serif;
+    font-size: 50px;
+    font-weight:bold;
+    padding: 20px;
+    
+    
+}
+.div{
+    justify-content: center;
+    display: flex;
+    font-weight:bold;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+   
+}
+a{
+    text-decoration: none;
+}
+
+li a{
+    color: white;
+}
+.img{
+    text-align: center;
+    padding: 35px;
+}
+.list:hover{
+    /* border: 3px solid rgb(255, 247, 247); */
+    background-color: azure;
+    color: #0000;
+}
+.listanker
+{
+    text-decoration: none;
+    color: #fff;
+}
+.listanker:hover
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;}
+/* }
+.pics
+{
+    height: 370px;
+    width: 100%;
+} */
+.box
+{
+    box-shadow: 0,0,20px,2px rgba(0, 0, 0, -1);
+    transition: 1s;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+.box img{
+    display: block;
+    border-radius: 5px;
+}
+/* }
+.box
+{
+    height: 100px;
+    width: 100%;
+}
+.pic{
+    width: 20%;
+} */
